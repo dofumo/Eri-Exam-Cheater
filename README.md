@@ -1,70 +1,31 @@
 # Eri Online Test Cheating Extension
 
-A lightweight Chrome extension made for using Gemini during browser-based online tests without having to switch to another tab or window.
+A lightweight Chrome extension that injects Gemini directly into your active browser tab, allowing you to use AI during online tests without triggering tab-switching or window-leaving detection. 
 
-Some online test websites can detect when you leave the test page, switch tabs, or change windows. This extension was made around that problem by keeping the AI interface directly on top of the page you're currently viewing.
+Many online test platforms monitor your browser activity and flag you if you switch tabs or open new windows. Eri solves this by keeping the AI interface directly on top of the page you are currently viewing.
 
-## Features
+## ✨ Key Features: Screen OCR & In-Page Injection
+These two core features are designed specifically to bypass common anti-cheat mechanisms:
+* **Zero Tab Switching:** The AI interface is injected directly into the current webpage. You can chat with Gemini without ever leaving the test page or triggering a warning.
+* **Screen OCR (Optical Character Recognition):** Many platforms disable text selection. Eri lets you select an area of your screen to instantly extract text from images, locked PDFs, or unselectable questions.
 
-* **Stay on the same tab** — Use Gemini without opening a separate AI website or switching away from the test page.
-* **Quick answers** — Built-in prompts for short answers, code-only responses, and multiple-choice questions.
-* **Highlight import** — Select text from the page and send it directly to Gemini.
-* **Screen OCR** — Select an area of the screen to extract text from images or text that cannot normally be selected.
-* **Your own Gemini API key** — Enter your own API key and choose which Gemini model to use.
-* **Quick copy** — Copy both the question and Gemini's response with one click.
+## 🚀 Additional Features
+* **Highlight Import:** Select standard text on the page and send it directly to Gemini.
+* **Smart Prompts:** Built-in templates optimized for short answers, code-only responses, and multiple-choice questions.
+* **Bring Your Own Key:** Enter your own Gemini API key and select your preferred model. (Your key and settings are stored locally and securely in your browser).
+* **One-Click Copy:** Instantly copy both the original question and Gemini's response to your clipboard.
 
-## Why?
+## 🛠️ Installation
+No coding knowledge is required to install Eri.
 
-This project was made because some online test platforms monitor whether the user leaves the test page.
+1. Download this repository by clicking **Code → Download ZIP**.
+2. Extract the downloaded ZIP file to a folder on your computer.
+3. Open Chrome and navigate to `chrome://extensions/`.
+4. Toggle **Developer mode** ON in the top-right corner.
+5. Click **Load unpacked** in the top-left menu.
+6. Select the extracted folder *(Make sure you select the folder containing the `manifest.json` file, not the ZIP itself)*.
 
-Normally, using an AI assistant means switching to another tab, opening another window, or copying the question somewhere else. On some testing websites, those actions can trigger warnings or be recorded as leaving the test.
-
-Eri takes a different approach: the AI interface is injected directly into the current webpage, so the test page stays open while you work with Gemini.
-
-The project is mainly a personal experiment with **Chrome extensions, webpage injection, OCR, and the Gemini API**, built around the idea of having an AI assistant available without leaving the current page.
-
-## Installation
-
-You don't need to know how to code.
-
-1. Download the repository from GitHub by clicking **Code → Download ZIP**.
-
-2. Extract the ZIP file.
-
-3. Open Chrome and go to:
-
-   `chrome://extensions/`
-
-4. Turn on **Developer mode** in the top-right corner.
-
-5. Click **Load unpacked**.
-
-6. Select the folder you extracted.
-
-Make sure you select the folder containing `manifest.json`, not the ZIP file itself.
-
-The extension should now appear in your extensions list.
-
-## Setup
-
-Open the extension and enter your Gemini API key.
-
-You can also select the Gemini model you want to use.
-
-The key and settings are stored locally in your browser.
-
-## How it works
-
-The extension runs directly in the browser and adds its interface to the current webpage.
-
-You can then:
-
-**Question on page → Highlight or capture it → Send to Gemini → Get the answer without leaving the page**
-
-This makes it particularly useful for experimenting with AI assistance on websites where switching tabs or windows is undesirable.
-
-## Disclaimer
-
-This is a personal experimental project and is not affiliated with Google, Gemini, or any testing platform.
-
-Whether AI assistance is permitted during a particular test depends on the rules of that test.
+## ⚙️ Setup & Usage
+1. Open the extension from your Chrome toolbar and enter your Gemini API key.
+2. Select the Gemini model you want to use.
+3. **During a test:** Highlight a question or use the OCR capture tool, send it to Gemini, and receive your answer without ever leaving the active tab.
