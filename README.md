@@ -1,4 +1,4 @@
-# Eri Online Test Cheating Extension
+# Eri Exam Cheater
 
 A Chrome extension that injects Gemini directly into your active tab. Built to bypass online test monitoring software that flags tab-switching or window-leaving. 
 
