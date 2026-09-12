@@ -16,7 +16,6 @@ These two core features are designed specifically to bypass common anti-cheat me
 * **One-Click Copy:** Instantly copy both the original question and Gemini's response to your clipboard.
 
 ## 🛠️ Installation
-No coding knowledge is required to install Eri.
 
 1. Download this repository by clicking **Code → Download ZIP**.
 2. Extract the downloaded ZIP file to a folder on your computer.
