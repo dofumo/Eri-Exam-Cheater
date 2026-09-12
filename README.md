@@ -16,4 +16,3 @@ Press `Ctrl + Shift + U` to open the AI interface directly over your current pag
 3. Turn on **Developer mode** (top right).
 4. Click **Load unpacked** and select the folder containing `manifest.json`.
 5. Open the extension from your toolbar to enter your API key.
-6. Press `Ctrl + Shift + U` on any webpage to open the interface.
