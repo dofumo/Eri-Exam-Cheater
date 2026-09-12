@@ -1,2 +1,2 @@
 # Eri-Online-Test-Cheating-Extension
-browser extension that allow you to cheat in protected online exam
+A minimalist Chrome extension that uses Gemini AI to quickly extract text and solve questions directly within your active tab.
