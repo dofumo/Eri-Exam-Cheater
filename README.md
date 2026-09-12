@@ -13,7 +13,6 @@ It lets you send text from the current page to Gemini, including highlighted tex
 
 ### Installation
 
-You don't need to know how to code to install it.
 
 1. Download this repository from GitHub:
    **Code → Download ZIP**
