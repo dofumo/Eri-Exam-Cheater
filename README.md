@@ -7,7 +7,7 @@ Many online test platforms monitor your browser activity and flag you if you swi
 ## ✨ Key Features: Screen OCR & In-Page Injection
 These two core features are designed specifically to bypass common anti-cheat mechanisms:
 * **Zero Tab Switching:** The AI interface is injected directly into the current webpage. You can chat with Gemini without ever leaving the test page or triggering a warning.
-* **Screen OCR (Optical Character Recognition):** Many platforms disable text selection. Eri lets you select an area of your screen to instantly extract text from images, locked PDFs, or unselectable questions.
+* **Screen OCR:** Many platforms disable text selection. Eri lets you select an area of your screen to instantly extract text from images, locked PDFs, or unselectable questions.
 
 ## 🚀 Additional Features
 * **Highlight Import:** Select standard text on the page and send it directly to Gemini.
